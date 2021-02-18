@@ -1,7 +1,7 @@
 // Sintaxe reduzina, intenção de criar funções rápidas
 
-let dobro = function (a) {
-    return 2 * a
+let dobro = function (a, b) {
+    return 2 * a + b
 }
 
 dobro = (a) => {
@@ -9,7 +9,7 @@ dobro = (a) => {
 }
 
 dobro = a => 2 * a // return implícito
-console.log(dobro(Math.PI))
+console.log(dobro(6))
 
 let ola = function () {
     return 'Olá'
