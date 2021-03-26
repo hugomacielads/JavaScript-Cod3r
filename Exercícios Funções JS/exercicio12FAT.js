@@ -10,7 +10,7 @@ function fatorial (numero) {
     }
 }
 
-console.log(fatorial(3))
+console.log(fatorial(5))
 
 function fatorial2(num) {
     let fat = 1     // Elemento neutro da multiplicação
